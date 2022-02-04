@@ -869,15 +869,24 @@ a:focus, a:hover {
   padding: 100px 0;
   background: url("../images/call-to-action-bg-2.jpg");
   background-size: cover;
-  color: #fff;
+}
+.navbar-nav{
+  display: -webkit-box;
 }
 
 .call-to-action h2 {
   line-height: 1.5;
 }
 
-.call-to-action p {
-  color: #fff;
+.lazy {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.logo{
+  width: 25%;
 }
 
 .call-to-action .btn-main {
