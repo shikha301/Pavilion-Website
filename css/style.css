@@ -889,6 +889,31 @@ a:focus, a:hover {
   width: 25%;
 }
 
+.pav-btn{
+  background-color: #63e5e2bf;
+  border: #63e5e2;
+  padding: 10px 20%;
+  font-size: 2rem;
+}
+
+.pitch h6{
+  line-height: 34px;
+  letter-spacing: 1px;
+}
+
+.join button{
+  background-color: #63e5e2bf;
+  width: 25%;
+}
+
+.join button:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+.pav-btn p{
+  font-size: 20px;
+}
+
 .call-to-action .btn-main {
   margin-top: 20px;
 }
