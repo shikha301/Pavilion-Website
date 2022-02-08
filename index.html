@@ -63,7 +63,7 @@ Fixed Navigation
 				<!-- logo -->
 				<a class="navbar-brand logo" href="index.html">
 					<!-- <h3>Pavilion</h3> -->
-					<img src="images/logo.svg" alt="" class="logo">
+					<img src="images/logo.png" alt="" class="logo">
 				</a>
 				<!-- /logo -->
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
@@ -73,19 +73,19 @@ Fixed Navigation
 
 				<div class="collapse navbar-collapse" id="navigation">
 					<ul class="navbar-nav ml-auto text-center">
-						<li class="nav-item active">
+						<li class="nav-item">
 							<a class="nav-link" href="home.html">
 								Home
 							</a>
 						</li>
-						<li class="nav-item ">
+						<li class="nav-item scrollto">
 							<a class="nav-link" href="#about">About</a>
 						</li>
-						<li class="nav-item ">
-							<a class="nav-link" href="portfolio.html">Why us </a>
+						<li class="nav-item scrollto">
+							<a class="nav-link" href="#whyus">Why us </a>
 						</li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+						<li class="nav-item dropdown scrollto">
+							<a class="nav-link dropdown-toggle" href="#" id="services" role="button"
 								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								Services
 							</a>
@@ -94,12 +94,13 @@ Fixed Navigation
 								<a class="dropdown-item" href="startup.html">Startup</a>
 							</div>
 						</li>
-						<li class="nav-item ">
-							<a class="nav-link" href="portfolio.html">Works</a>
+						<li class="nav-item scrollto">
+							<a class="nav-link" href="#work">Works</a>
 						</li>
 						</li>
-						<li class="nav-item ">
-							<a class="nav-link" href="contact.html">Contact</a>
+						<li class="nav-item scrollto">
+							<a class="nav-link" href="#contact">Contact</a>
+						</li>	
 					</ul>
 				</div>
 			</nav>
@@ -141,7 +142,7 @@ Welcome Slider
 	<!--
 Start About Section
 ==================================== -->
-	<section class="about" id="#about">
+	<section class="about">
 		<div class="container">
 			<div class="row">
 
@@ -162,7 +163,7 @@ Start About Section
 	</section> <!-- End section -->
 
 
-	<section class="about-shot-info section-sm blog">
+	<section class="about-shot-info section-sm blog"  id="about">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6">
@@ -219,8 +220,7 @@ Start About Section
 		</div>
 	</section>
 
-		<!--founder About Section==================================== -->
-		<section class="about-2 about-shot-info section-sm">
+	<section class="about-2 about-shot-info section-sm">
 			<div class="container">
 				<div class="row">
 					
@@ -241,14 +241,13 @@ Start About Section
 	
 				</div>
 			</div>
-		</section>
-		<!-- End section -->
+	</section>
 
-		<div class="text-center join mt-5">
+	<div class="text-center join mt-5">
 			<button type="button" class="btn btn-lg">JOIN PAVILION NOW!</button>
-		</div>
+	</div>
 
-		<section class="about mt-5" id="blog">
+	<section class="about mt-5" id="whyus">
 			<div class="container">
 					<div class="text-center">
 						<div class="">
@@ -267,11 +266,9 @@ Start About Section
 					</div>
 				</div>
 			</div> <!-- end container -->
-		</section>
+	</section>
 	
-
-
-		<section class="blog mt-5" id="blog">
+	<section class="blog mt-5" id="blog">
 			<div class="container">
 				<div class="row justify-content">
 					<!-- section title -->
@@ -314,9 +311,9 @@ Start About Section
 					</article>
 				</div> <!-- end row -->
 			</div> <!-- end container -->
-		</section>
+	</section>
 
-	<section class="about-shot-info section-sm ">
+	<section class="about-shot-info section-sm" id="work">
 		<div class="container">
 			<h2 class="mb-3 text-center">SUBMIT YOUR PITCH HERE</h2>
 			<div class="border"></div>
@@ -362,17 +359,6 @@ Start About Section
 
 		</div>
 	</section>
-
-
-
-
-
-
-
-	<!-- Start Services Section
-		==================================== -->
-
-	
 
 	<section class="call-to-action section">
 		<div class="container">
@@ -497,7 +483,7 @@ Start About Section
 		</div> <!-- End container -->
 	</section>
 
-	<section class="call-to-action section">
+	<section class="call-to-action section" id="contact">
 		<div class="container text-center">
 			<h2>Contact Us</h2>
 			<div class="row mt-5">
@@ -517,7 +503,6 @@ Start About Section
 	<section class="contact-us" id="contact">
 		<div class="container">
 			<div class="row">
-
 				<!-- section title -->
 				<div class="col-12">
 					<div class="title text-center">
@@ -526,7 +511,6 @@ Start About Section
 					</div>
 				</div>
 				<!-- /section title -->
-
 				<!-- Contact Details -->
 				<div class="contact-details col-md-6 ">
 					<h3>How do we get in touch?</h3>
@@ -678,6 +662,7 @@ Start About Section
 
 	<!-- Custom js -->
 	<script src="js/script.js"></script>
+	<script src="js/main.js"></script>
 
 </body>
 
