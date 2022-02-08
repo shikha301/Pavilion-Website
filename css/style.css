@@ -879,10 +879,10 @@ a:focus, a:hover {
 }
 
 .lazy {
-  position: absolute;
+  /* position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
 }
 
 .logo{
@@ -903,7 +903,6 @@ a:focus, a:hover {
 
 .join button{
   background-color: #63e5e2bf;
-  width: 25%;
 }
 
 .join button:hover{
