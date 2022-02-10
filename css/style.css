@@ -2142,6 +2142,7 @@ span.count {
   .counters-item:before {
     display: none;
   }
+
 }
 
 @media (min-width: 980px) and (max-width: 1150px) {
@@ -2399,6 +2400,11 @@ span.count {
   }
   .author-avatar {
     margin-right: 10px;
+  }
+  .checklist li:before {
+    position: inherit;
+    margin-right: 12px;
+    margin-left: 0;
   }
 }
 
