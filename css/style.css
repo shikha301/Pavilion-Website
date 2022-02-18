@@ -12,7 +12,6 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Catamaran", sans-serif;
   font-weight: 600;
 }
 
@@ -106,9 +105,7 @@ a:focus, a:hover {
   padding: 100px 0;
 }
 
-.btn:focus {
-  color: #ddd;
-}
+
 
 #home {
   position: relative;
