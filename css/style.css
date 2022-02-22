@@ -2140,6 +2140,8 @@ span.count {
     display: none;
   }
 
+
+
 }
 
 @media (min-width: 980px) and (max-width: 1150px) {
@@ -2186,6 +2188,7 @@ span.count {
   .author-bio h5 {
     margin-left: 70px;
   }
+ 
 }
 
 /*============================================================
@@ -2403,6 +2406,13 @@ span.count {
     margin-right: 12px;
     margin-left: 0;
   }
+  .project-content-block{
+    margin-left: 0px;
+    position: relative;
+  }
+  .logo {
+    width: 50%;
+}
 }
 
 /*============================================================
