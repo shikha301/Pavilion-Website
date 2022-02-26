@@ -2546,6 +2546,7 @@ span.text-color.mr-2.text-md {
 .timeline .timeline-box .timeline-details {
   clear: both;
   padding-top: 5px;
+  width: 80%;
 }
 .timeline .timeline-box span {
   position: absolute;
