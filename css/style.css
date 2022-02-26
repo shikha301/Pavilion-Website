@@ -396,7 +396,6 @@ a:hover {
 }
 
 .logo {
-  margin-top: 10px;
   display: inline-block;
 }
 
@@ -561,7 +560,6 @@ a:hover {
 
 .navbar-brand {
   height: auto;
-  padding: 8px 0;
 }
 
 .navbar-brand h1 {
@@ -834,6 +832,8 @@ a:hover {
   color: #28abe3;
   margin-right: 8px;
 }
+
+
 
 /*=================================================================
   About us 2 section
@@ -1335,6 +1335,7 @@ a:hover {
   color: #28abe3;
 }
 
+
 .service-2 .service-item i {
   font-size: 30px;
   display: inline-block;
@@ -1366,7 +1367,7 @@ a:hover {
 
 span.count {
   font-size: 80px;
-  color: #f3f1f1;
+  color: #1ab2ac82;
   font-weight: 700;
 }
 /*=================================================================
@@ -2155,6 +2156,12 @@ span.count {
   font-size: 200px;
 }
 
+span.text-color.mr-2.text-md {
+  font-size: 80px;
+  color: #1ab2ac82;
+  font-weight: 700;
+}
+
 /*============================================================
 	For Small Desktop
 ==============================================================*/
@@ -2540,8 +2547,8 @@ span.count {
   right: 24px;
   font-size: 8em;
   font-weight: 700;
-  color: #28abe3;
-  opacity: 0.1;
+  color: #1ab2ac82;
+  opacity: 0.5;
   z-index: -1;
 }
 @media all and (max-width: 600px) {
@@ -2555,18 +2562,7 @@ span.count {
   background: #28abe3;
 }
 @media all and (min-width: 650px) {
-  .timeline .timeline-box:after {
-    display: block;
-    content: " ";
-    height: 9px;
-    width: 9px;
-    background: #fff;
-    border-radius: 50%;
-    position: absolute;
-    right: -6.55%;
-    top: 1.5em;
-    border: 2px solid #28abe3;
-  }
+
 }
 .timeline .timeline-box:first-child {
   margin-bottom: 2.5em;
