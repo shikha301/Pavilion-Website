@@ -2162,6 +2162,12 @@ span.text-color.mr-2.text-md {
   font-weight: 700;
 }
 
+.akash {
+  width: 100%;
+  height: 22rem;
+  object-fit: contain;
+}
+
 /*============================================================
 	For Small Desktop
 ==============================================================*/
